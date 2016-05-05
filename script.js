@@ -10,7 +10,7 @@ function colorGenerator(hexString) {
 	return hexCode.join('');
 }
 
-console.log(colorGenerator(hexString))
+colorGenerator(hexString)
 
 function makeCheckerBoard() {
 	for (var i = 0; i < 63; i++) {
@@ -22,3 +22,5 @@ function makeCheckerBoard() {
 		document.body.appendChild(tile);
 	}
 }
+
+makeCheckerBoard();
