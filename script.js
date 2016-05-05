@@ -4,8 +4,8 @@ var hexString = "0123456789ABCDEF"
 function colorGenerator(hexString) {
 	var hexCode = ['#'];
 	for (var i = 0; i < 6; i++) {
-		var random = Math.floor(Math.random() * 16)
-		hexCode.push(hexString[random])
+		var random = Math.floor(Math.random() * 16);
+		hexCode.push(hexString[random]);
 	}
 	return hexCode.join('');
 }
